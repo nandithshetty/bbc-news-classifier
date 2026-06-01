@@ -20,7 +20,7 @@ def clean_text(text):
     text = re.sub(r'[^a-z ]', '', text)
     return text
 
-
+df['Text'] = df['Text'].apply(clean_text)
 
 # Encode labels
 le = LabelEncoder()
