@@ -1,0 +1,21 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large Model Serializations (Optional to ignore, but standard practice)
+# ensemble_model.joblib
+# tfidf_vectorizer.joblib
+
+# OS-specific files
+.DS_Store
+Thumbs.db
