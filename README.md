@@ -108,16 +108,3 @@ Run the interactive inference script to classify custom text input and view prob
 python predict.py
 ```
 
----
-
-## 📝 IEEE Citation / Reference Format
-If you use this work or findings in your academic publication, please cite as follows:
-
-```bibtex
-@inproceedings{shetty2026bbc,
-  title={A Hybrid Probability-Weighted Soft-Voting Ensemble for Multi-Class News Categorization},
-  author={Shetty, Nandith},
-  booktitle={Proceedings of the International Conference on Machine Learning and Natural Language Processing},
-  year={2026}
-}
-```
