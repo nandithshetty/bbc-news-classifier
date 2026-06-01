@@ -11,8 +11,6 @@ from sklearn.ensemble import VotingClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score, classification_report
 
-# Load BBC dataset
-df = pd.read_csv("data/bbc_news.csv")
 
 # Clean text
 def clean_text(text):
