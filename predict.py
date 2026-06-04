@@ -12,11 +12,7 @@ except FileNotFoundError:
 # Category mapping (based on the LabelEncoder index)
 categories = ['business', 'entertainment', 'politics', 'sport', 'tech']
 
-# 2. Text preprocessing helper
-def clean_text(text):
-    text = str(text).lower()
-    text = re.sub(r'[^a-z ]', '', text)
-    return text
+
 
 def predict_article(raw_text):
     # Preprocess and vectorise the input
