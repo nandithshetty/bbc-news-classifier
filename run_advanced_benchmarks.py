@@ -28,10 +28,7 @@ print("=" * 60)
 # ------------------------------------------------------------------
 # 1. DATA LOADING
 # ------------------------------------------------------------------
-def clean_text(text):
-    text = str(text).lower()
-    text = re.sub(r'[^a-z ]', '', text)
-    return text
+
 
 def load_bbc():
     df = pd.read_csv("data/bbc_news.csv")
