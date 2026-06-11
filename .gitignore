@@ -19,3 +19,11 @@ ENV/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# LaTeX files & figures
+manuscript_revised.tex
+ablation_study.png
+advanced_comparison.png
+computational_efficiency.png
+confusion_matrix.png
+model_comparison.png
